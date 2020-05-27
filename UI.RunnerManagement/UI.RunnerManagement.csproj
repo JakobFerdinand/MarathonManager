@@ -72,12 +72,16 @@
     <Compile Include="Events\EnsureDatabaseDeletingEvent.cs" />
     <Compile Include="Helpers\ILMemberAccessor.cs" />
     <Compile Include="Helpers\ViewHelper.cs" />
+    <Compile Include="Models\ImmutableCategory.cs" />
+    <Compile Include="Models\ImmutableRunner.cs" />
     <Compile Include="Registries\CommonRegistry.cs" />
     <Compile Include="Registries\DataRegistry.cs" />
     <Compile Include="Registries\LoggingRegistry.cs" />
     <Compile Include="Registries\ViewRegistry.cs" />
+    <Compile Include="Services\CategoriesService.cs" />
     <Compile Include="Services\DialogService.cs" />
     <Compile Include="Services\NotificationService.cs" />
+    <Compile Include="Services\RunnersService.cs" />
     <Compile Include="Telemetry.cs" />
     <Compile Include="Validation\IsRequiredValidationRule.cs" />
     <Compile Include="ViewModels\AddAndChangeCategoriesViewModel.cs" />
